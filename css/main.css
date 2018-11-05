@@ -1,7 +1,50 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+h2 {
+  color: white;
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, .5);
+  font-weight: bold;
+  display: inline;
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+  margin: 0;
+  line-height: 1.5;
+  margin-top: .38em;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  bottom: 1.75em;
+  transform: translateX(-50%);
+  max-width: 50em;
+  width: 100%;
+  padding: 0 1.5em;
 }
